@@ -1,0 +1,205 @@
+.allContainer{
+	width: 1000;
+	height: 100%;
+	/*margin-top: -40px;*/
+	margin-left: -40px;
+	margin-right: -15px;
+	padding-top: 40px;
+	padding-left: 80px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	background-image: url(/static/image/learning_crowd_bg.jpg);
+}
+.courseContainer{
+	width: 1000px;
+	display: flex;
+	margin-left: 15%;
+	/*margin-top: 80px;*/
+	border-radius: 10px;
+	flex-wrap: wrap-reverse;
+	
+}
+ul {
+    list-style: none;
+}
+.mycourse_ul .tb {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.tb_link {
+    display: inline-block;
+    width: 100%;
+}
+.tb_link a{
+	background-color: transparent;
+	text-decoration: none;
+}
+.mycourse_block_hd {
+    box-sizing: border-box;
+    width: 100%;
+    height: 190px;
+    padding: 18px;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+    border-radius: 10px;
+}
+.lessonpic_hd {
+    float: left;
+background-image: url(/static/image/znzn.png);
+}
+.lesson_wufangtu {
+    width: 210px;
+    height: 150px;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+.mycourse_info_hd {
+    position: relative;
+    float: left;
+    width: 544px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 4px 0 5px 32px;
+}
+.myccourse_title {
+    color: #000;
+    font-size: 18px;
+    max-width: 371px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 9px;
+}
+.mycourse_le_info_hd {
+    color: #666;
+    font-weight: 400;
+    line-height: 28px;
+}
+.progress_container {
+    position: absolute;
+    bottom: 7px;
+}
+.progress_hd {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+.total_lesson_count_p {
+    text-align: right;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 9px;
+    color: #999;
+}
+.progress_bar_hd {
+    background-color: #e3e3e3;
+    height: 6px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.progress_bar {
+    position: absolute;
+    width: 20px;
+    height: 8px;
+    background-color: #f5d220;
+}
+.time_period_hd {
+    color: #999;
+}
+.time_period.l {
+    float: left;
+}
+.time_period {
+    font-size: 12px;
+}
+.time_period_hd {
+    color: #999;
+}
+.time_period.r {
+    float: right;
+}
+.time_period {
+    font-size: 12px;
+}
+.time_period_hd {
+    color: #999;
+}
+.more_hd {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    z-index: 100;
+}
+.more_icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: 3px 9px;
+    background-size: 13px;
+}
+.more_list_hd {
+    position: absolute;
+    top: 19px;
+    right: 10px;
+    border: 1px solid #dedede;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.16);
+    display: none;
+}
+.remove_btn {
+    border-bottom: 1px solid #dedede;
+}
+.more_btn {
+    width: 86px;
+    height: 36px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 36px;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    padding-left: 27px;
+}
+.exp_date_hd {
+    position: absolute;
+    z-index: 99;
+    top: 29px;
+    right: 20px;
+    color: #999;
+    padding: 2px;
+    font-size: 12px;
+}
+/*.j-mycourselist-data-con{
+	display: flex;
+	flex-wrap: wrap;
+}*/
+@media only screen and (max-width: 960px) {
+	.courseContainer {
+		width: 700px;
+		margin:0 auto;
+	}
+	.j-mycourselist-data-con{
+		margin: 0 auto;
+		width: 600px;
+    height: 190px;
+	}
+	.mycourse_block_hd {
+    box-sizing: border-box;
+    width: 600px;
+    height: 190px;
+    padding: 9px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #E4E4E4;
+}
+}

@@ -1,0 +1,190 @@
+.yingYi-container{
+width: 1373px;
+	margin-left: -40px;
+	/*margin-right: 400px;*/
+	background-image: url(/static/image/learning_crowd_bg.jpg);
+	padding-bottom: 40px;
+	padding-left: 40px;
+}
+.comprehension, .writing , .clozeText , .translation{
+    width: 360px;
+    height: 280px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 200px;
+    /*margin-right: auto;*/
+    margin-bottom: 20px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+}
+/*body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, button, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+div {
+	display: block;
+}*/
+.course_con {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+/*a {
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}*/
+.course_show_img {
+    padding: 40px 0 0 20px;
+    z-index: 2;
+    position: relative;
+    height: 210px;
+    overflow: hidden;
+}
+.box_sizing {
+    box-sizing: border-box;
+}
+.sell_status {
+    height: 70px;
+    padding: 18px 20px;
+    display: inline-block;
+    width: 100%;
+}
+.box_sizing {
+    box-sizing: border-box;
+}
+/*ul, ol, dl, dt, dd, li {
+    list-style: none;
+}*/
+.course_item_left {
+    position: relative;
+    z-index: 3;
+}
+.course_class {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    width: 170px;
+    padding-top: 14px;
+}
+.course_teacher_name {
+    margin-bottom: 14px;
+}
+.course_teacher_name_item {
+    padding: 0 6px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 9px 9px 0;
+    background-color: #f5d220;
+    color: #000;
+    display: inline-block;
+    margin-right: 2px;
+}
+.course_time {
+    color: #000;
+    font-size: 14px;
+    line-height: 14px;
+}
+.schooltime {
+    margin-right: 2px;
+}
+.period {
+    color: #00a51f;
+}
+.course_item_img {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+}
+.sell_status {
+    height: 70px;
+    padding: 18px 20px;
+    display: inline-block;
+    width: 100%;
+}
+.sell_status .course_sell_price {
+    margin-bottom: 9px;
+}
+.sell_status li {
+    line-height: 14px;
+    color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 14px;
+}
+.float_left {
+    float: left;
+}
+.course_price {
+    color: #000;
+}
+.float_right {
+    float: right;
+}
+.course_price .free {
+    font-size: 18px;
+}
+.course_price span {
+    font-size: 24px;
+}
+.sell_status li {
+    line-height: 14px;
+    color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 14px;
+}
+input[type=text], input[type=submit] {
+    outline: 0;
+}
+.sell_status li {
+    line-height: 14px;
+    color: rgba(0,0,0,.8);
+}
+.detail_btn_hd a {
+	margin-top: 10px;
+    overflow: hidden;
+}
+.btn_normal_orange {
+    background-color: #f3493a;
+    color: #fff;
+}
+.btn_common {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    width: 130px;
+    height: 40px;
+    padding: 8px 0;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -webkit-transition: all 100ms linear;
+    text-decoration: none;
+}
+@media only screen and (max-width:960px ) {
+	.comprehension,.clozeText,.writing,.translation{
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+	
+}

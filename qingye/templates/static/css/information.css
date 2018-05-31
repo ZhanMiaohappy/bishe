@@ -1,0 +1,96 @@
+.infoContainer{
+	background-image: url(/static/image/learning_crowd_bg.jpg);
+	margin-left: -19px;
+	margin-right: -15px;
+}
+.settings_con_hd {
+    width: 880px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-bottom: 49px;
+    box-shadow: 0 1px 1px #e2e1e1;
+    border-radius: 4px;
+    height: 560px;
+}
+.personal_data {
+    width: 100%;
+    padding: 49px 0 136px 60px;
+    box-sizing: border-box;
+}
+.interval_bottom {
+    margin-bottom: 29px;
+}
+.datas {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.datas h5 {
+    display: inline-block;
+    color: #493a4f;
+    width: 70px;
+    margin-right: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.datas_con {
+    display: inline-block;
+}
+.float_left {
+    float: left;
+}
+.btn {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #f5d220;
+    text-decoration: none;
+}
+.datas_con {
+    display: inline-block;
+}
+.float_left {
+    float: left;
+}
+.interval_bottom {
+    margin-bottom: 29px;
+}
+.datas {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.datas_box {
+    width: 310px;
+    box-sizing: border-box;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding-left: 10px;
+    color: black;
+}
+.datas {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.hint_setpwd {
+    color: #ec3c3c;
+    font-size: 12px;
+}
+.datas {
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+    font-size: 14px;
+}

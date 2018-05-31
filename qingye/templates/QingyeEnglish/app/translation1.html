@@ -1,0 +1,546 @@
+<!doctype html>
+<html ng-app="qingYe">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/static/css/btn-log-sign.css"/>
+    <link rel="stylesheet" href="/static/css/navigator.css"/>
+    <link rel="stylesheet" href="/static/css/home.css"/>
+    <link rel="stylesheet" href="/static/css/yingYi.css"/>
+    <link rel="stylesheet" href="/static/css/swiper.min.css" />
+    <link rel="stylesheet" href="/static/register/register.css" />
+    <link rel="stylesheet" href="/static/register/register.min.css" />
+    <link rel="stylesheet" href="/static/register/style.css" />
+    
+    <script src="/static/js/angular-1.3.0.js"></script>
+    <script src="/static/js/angular-animate.js"></script>
+    <script src="/static/js/angular-ui-router.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/index.state.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/register/register-jquery.js"></script>
+    <script src="/static/register/register.index.js"></script>
+    <script src="/static/js/yingYi.js"></script>
+    
+    <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 500px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+    }
+    /*#mask{
+    	background: #000;
+    	opacity: 0.75;
+    	filter: alpha(opacity=75);
+    	height: 100%;
+    	width: 100%;
+    	position: absolute;
+    	left: 0;
+    	top: 0;
+    }*/
+   /* 弹窗 (background) */
+.modal {
+    display: none; /* 默认隐藏 */
+    position: fixed; 
+    z-index: 1000; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* 弹窗内容 */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* 添加动画 */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* 关闭按钮 */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;
+margin-top: 20px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.pop-payment .content .row {
+    padding-bottom: 20px;
+    
+}
+.row{
+	width: 50%;
+    display: flex;
+    margin-left: 26%;
+}
+.pop-payment .content .input {
+    width: 314px;
+    height: 38px;
+    box-sizing: border-box;
+    line-height: 38px;
+    border-radius: 19px;
+    border: 0;
+    background: #f3f3f3;
+    outline: 0;
+    padding: 0 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #666;
+}
+.input {
+    width: 314px;
+    height: 38px;
+    box-sizing: border-box;
+    line-height: 38px;
+    border-radius: 19px;
+    border: 0;
+    background: #f3f3f3;
+    outline: 0;
+    padding: 0 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #666;
+
+	/*color: #000000;*/
+}
+.pop-payment .address_operate {
+    margin-top: 26px;
+}
+.pop-payment .operate {
+    margin-top: 30px;
+}
+.pop-con .operate {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #f5d220;
+    color: #000;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.operate {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #f5d220;
+    color: #000;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.operate a{
+	text-decoration: none;
+}
+
+.detail_intro_pc {
+    padding: 60px 0 72px;
+}
+.course_container {
+    width: 1120px;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+    box-sizing: border-box;
+}
+.detail_intro_left {
+    float: left;
+    position: relative;
+    margin: 16px 0 0 105px;
+    height: 350px;
+}
+.lesson_bgpic {
+    width: 460px;
+    height: 300px;
+    background-size: cover;
+    float: left;
+    background-position: 50% 50%;
+}
+.detail_intro_right {
+    position: relative;
+    float: left;
+    width: 476px;
+    margin-left: 79px;
+}
+.detail_intro_pc .detail_title_hd {
+    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 24px;
+}
+.detail_intro_pc .detail_time_hd {
+    margin-bottom: 6px;
+    line-height: 14px;
+}
+.font_mid_grey {
+    color: #999;
+}
+.detail_intro_pc .detail_time_hd {
+    margin-bottom: 6px;
+    line-height: 14px;
+}
+.font_mid_grey {
+    color: #999;
+}
+.detail_intro_pc .detail_time_hd {
+    margin-bottom: 6px;
+    line-height: 14px;
+}
+.font_mid_grey {
+    color: #999;
+}
+.detail_lesson_num {
+    margin-left: 12px;
+}
+.detail_intro_pc .detail_time_hd {
+    margin-bottom: 6px;
+    line-height: 14px;
+}
+.font_mid_grey {
+    color: #999;
+}
+.detail_intro_pc .detail_limit_hd {
+    margin-bottom: 19px;
+    line-height: 14px;
+}
+.font_mid_grey {
+    color: #999;
+}
+.detail_intro_pc .detail_limit_hd {
+    margin-bottom: 19px;
+    line-height: 14px;
+}
+.font_mid_grey {
+    color: #999;
+}
+.detail_intro_pc .detail_limit_hd {
+    margin-bottom: 19px;
+    line-height: 14px;
+}
+.font_mid_grey {
+    color: #999;
+}
+.detail_coursegroup_hd {
+    width: 100%;
+    box-sizing: border-box;
+}
+.coursegroup_item_curr {
+    color: #f5d220;
+    border: 1px solid #f5d220;
+    position: relative;
+}
+.coursegroup_item {
+    height: 32px;
+    box-sizing: border-box;
+    line-height: 32px;
+    border: 1px solid #d7d7d7;
+    border-radius: 25px;
+    margin-right: 7px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 22px;
+    color: #000;
+    margin-bottom: 12px;
+    background-color: #F5D220;
+}
+.detail_price_hd {
+    margin-bottom: 14px;
+    padding-top: 15px;
+}
+.font_price {
+    color: #f44839;
+}
+.detail_intro_pc .rmb {
+    font-size: 18px;
+    font-weight: 100;
+}
+.font_price {
+    color: #f44839;
+}
+.detail_intro_pc .detail_price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.font_price {
+    color: #f44839;
+}
+.detail_intro_pc .detail_btn_hd {
+    margin-bottom: 10px;
+}
+.detail_btn_hd a {
+    overflow: hidden;
+}
+.btn_normal_orange {
+    background-color: #f3493a;
+    color: #fff;
+}
+#myBtn{
+	border: none;
+	background-color: #EEEEEE;
+}
+.btn_common {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "microsoft yahei";
+    width: 130px;
+    height: 40px;
+    padding: 8px 0;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: all 100ms linear;
+    -moz-transition: all 100ms linear;
+    -webkit-transition: all 100ms linear;
+    -o-transition: all 100ms linear;
+}
+.quota_hd {
+    margin-right: 20px;
+}
+
+  </style>
+
+</head>
+
+<body>
+    <div class="top" style="width: 100%;height: 50px;background-color:#323232 ;">
+			<div align="right">
+		        <a type="button" class="btn-sign" href="/qingye/register/" style="vertical-align:middle"><span>免费注册</span></a>
+		        <a type="button" class="btn-log" href="/qingye/register/" style="vertical-align:middle"><span>马上登录</span></a>
+		    </div>
+	</div>
+
+         <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image:url(/static/image/外教01.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(/static/image/外教04.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(/static/image/外教05.jpg)"></div>
+      <div class="swiper-slide" style="background-image:url(/static/image/外教06.jpg)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-green"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next swiper-button-green"></div>
+    <div class="swiper-button-prev swiper-button-green"></div>
+  </div>
+  <div class="detail_intro_pc">
+        <div class="course_container clearfix">
+            <div class="detail_intro_left">
+                <div class="lesson_bgpic" style="background-image: url(/static/image/eliteschool04.png)"> </div>
+                <input type="hidden" value="">
+            </div>
+
+            <div class="detail_intro_right">
+                <div class="detail_title_hd">翻译（英语一）</div>
+                <div class="detail_time_hd font_mid_grey">
+                    <span>开课时间:</span>
+                    <span class="detail_time">018.03.05-04.27</span>
+                    <span class="detail_lesson_num">10课时</span>
+                </div>
+                <div class="detail_limit_hd font_mid_grey">
+                    <span>限售人数:</span>
+                    <span>3000人</span>
+                </div>
+
+                    <div class="detail_coursegroup_hd">
+                            <a class="coursegroup_item coursegroup_item_curr">英语一</a>
+                    </div>
+
+                <div class="detail_price_hd font_price">
+                    <span class="rmb font_price">RMB</span>
+                    <span class="detail_price font_price">79.0</span>
+                </div>
+                <div class="detail_btn_hd">
+                	<div style="width: 100%; height: 100px;">
+                		<button id="myBtn">
+                		  <a href="javascript:;" id="j-buy" class="j_btn_control btn_normal_orange btn_common">立即购买</a>
+                	    </button>
+                	</div>
+        	               
+                </div>
+                <div class="detail_quota_cd_hd">
+                    <span class="quota_hd font_mid_grey">
+                      	购买人数: <em>917人</em>
+                    </span>
+	                    <span id="j-cd" class="cd_hd font_mid_grey">
+	                        <div id="j-sellEnd-time" data-sellend="1530374400000" style="display: none"></div>
+	                        <div id="j-sellStart-time" data-sellstart="1526270400000" style="display: none"></div>
+                                <span>距离结束</span>
+                            <span class="cd_red_font"><em id="day">35</em>天<em id="hour">01</em>小时<em id="min">16</em>分<em id="sec">19</em>秒</span>
+	                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 打开弹窗按钮 -->
+ 
+<!-- 弹窗 -->
+<div id="myModal" class="modal">
+ 
+  <!-- 弹窗内容 -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 style="text-align: center;">翻译(英语一)</h2>
+      </div>
+      <div class="modal-body">
+        <p class="row">
+                    姓名<input type="text" class="input w1" name="n-name" id="j-mail-name" placeholder="{{name}}" autocomplete="off" maxlength="10" value="">
+        </p>
+        <p class="row">
+                   电话<input type="number" class="input w1" id="j-mail-tel" name="n-phone" placeholder="{{phonenum}}" autocomplete="off" value="">
+        </p>
+        <p class="row">
+                  密码 <input type="password" class="input w1" id="j-mail-tel" name="n-password" placeholder="{{password}}" autocomplete="off" value="">
+        </p>
+      </div>
+      <div class="modal-footer">
+        <h3><a href="#next" class="operate step address_operate">确认购买</a></h3>
+      </div>
+    </div>
+ 
+</div>
+
+        
+        
+        
+    <div class="foot" style="background-color:#323232 ;">
+   	  	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+   		  <p style="color: #C7C7C7;" align="center"><span style="color: #556666;">Copyright@ZhangMiao</span>华北理工大学</p>
+   		  <p style="color:#556666;font-family: '微软雅黑';" align="center" ;>河北省唐山市曹妃甸区唐山湾生态城华北理工大学新校</p>
+   		  <p style="color:#C7C7C7;" align="center">电话：86-18910120193</p>
+   		  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </div>
+    <script src="../js/swiper.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      effect: 'fade',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <script>
+  // 获取弹窗
+var modal = document.getElementById('myModal');
+
+// 打开弹窗的按钮对象
+var btn = document.getElementById("myBtn");
+
+// 获取 <span> 元素，用于关闭弹窗 that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// 点击按钮打开弹窗
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// 点击 <span> (x), 关闭弹窗
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// 在用户点击其他地方时，关闭弹窗
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+<script type="text/javascript">
+	
+	    $(document).ready(function () {    
+	    	$('input').change(function(){
+		       $('.operate').click(function(){
+	                    setTimeout(function(){//两秒后跳转  
+                                 alert("购买成功！");   
+                                 location.href ="http://127.0.0.1:8000/qingye/index/#/myCourse";//PC网页式跳转
+//                               $.mobile.changePage("index.php"); //手机网页式跳转  
+                        },0); 
+		       });
+	        });
+        }); 
+</script>
+
+</body>
+
+</html>

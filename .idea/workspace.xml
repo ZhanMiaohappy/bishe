@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed253bae-ceaf-4ed8-b67a-03e35d67d69a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/clozeText1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/clozeText2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList21.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList23.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList24.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/information.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/translation1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/translation2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/writing1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/writing2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/yingEr.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/yingEr.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/yingYi.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/yingYi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/static/css/information.css" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/static/css/information.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/static/index.state.js" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/static/index.state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/static/js/state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/static/js/yingYi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/templates/static/register/register.index.js" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/static/register/register.index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="ed253bae-ceaf-4ed8-b67a-03e35d67d69a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +197,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="665" />
     <option name="y" value="5" />
     <option name="width" value="714" />
@@ -429,7 +398,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
@@ -437,7 +406,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3272727" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.353719" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.353719" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.21487603" />
       <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20801815" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />

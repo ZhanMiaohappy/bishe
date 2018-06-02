@@ -5,12 +5,11 @@
             <div class="course_show_img box_sizing">
 
                 <div class="course_item_left">
-                    <div class="course_class">英语二 阅读理解</div>
+                    <div class="course_class">{{ itemList.0.engtypename }} {{ itemList.0.engmoduname }}</div>
 
 
                     <div class="course_teacher_name">
-                        <div class="course_teacher_name_item">AAAAA</div>
-                        <div class="course_teacher_name_item">BBBBB</div>
+                        <div class="course_teacher_name_item">{{ itemList.0.teacher }}</div>
                     </div>
 
                     <div class="course_time">
@@ -19,7 +18,7 @@
                         <span class="period">10</span>课时
                     </div>
                     <div class="detail_btn_hd">
-                        <a href="/qingye/comprehension2/" id="j-buy" class="j_btn_control btn_normal_orange btn_common">了解详情</a>
+                        <a href="/qingye/comprehension1/5/" id="j-buy" class="j_btn_control btn_normal_orange btn_common">了解详情</a>
                     </div>
                 </div>
 
@@ -33,7 +32,7 @@
         <ul class="sell_status box_sizing">
             <li class="course_sell_price">
 
-                <div class="float_left">限购20000人</div>
+                <div class="float_left">限购{{ itemList.0.limitnum }}人</div>
 
                 <div class="float_right course_price"><span class="course_price_unti">RMB</span> <span>79</span></div>
             </li>
@@ -51,12 +50,11 @@
             <div class="course_show_img box_sizing">
 
                 <div class="course_item_left">
-                    <div class="course_class">英语二 完形填空</div>
+                    <div class="course_class">{{ itemList.1.engtypename }} {{ itemList.1.engmoduname }}</div>
 
 
                     <div class="course_teacher_name">
-                        <div class="course_teacher_name_item">CCCCC</div>
-                        <div class="course_teacher_name_item">DDDDD</div>
+                        <div class="course_teacher_name_item">{{ itemList.1.teacher }}</div>
                     </div>
 
                     <div class="course_time">
@@ -65,7 +63,7 @@
                         <span class="period">9</span>课时
                     </div>
                     <div class="detail_btn_hd">
-                        <a href="/qingye/clozeText2/" id="j-buy"
+                        <a href="/qingye/comprehension1/6/" id="j-buy"
                            class="j_btn_control btn_normal_orange btn_common">了解详情</a>
                     </div>
 
@@ -82,7 +80,7 @@
         <ul class="sell_status box_sizing">
             <li class="course_sell_price">
 
-                <div class="float_left">限购20000人</div>
+                <div class="float_left">限购{{ itemList.1.limitnum }}人</div>
 
                 <div class="float_right course_price"><span class="course_price_unti">RMB</span> <span>69</span></div>
             </li>
@@ -100,11 +98,11 @@
             <div class="course_show_img box_sizing">
 
                 <div class="course_item_left">
-                    <div class="course_class">英语二 写作</div>
+                    <div class="course_class">{{ itemList.2.engtypename }} {{ itemList.2.engmoduname }}</div>
 
 
                     <div class="course_teacher_name">
-                        <div class="course_teacher_name_item">AAAAA</div>
+                        <div class="course_teacher_name_item">{{ itemList.2.teacher }}</div>
                     </div>
 
                     <div class="course_time">
@@ -113,7 +111,7 @@
                         <span class="period">18</span>课时
                     </div>
                     <div class="detail_btn_hd">
-                        <a href="/qingye/writing2/" id="j-buy"
+                        <a href="/qingye/comprehension1/7/" id="j-buy"
                            class="j_btn_control btn_normal_orange btn_common">了解详情</a>
                     </div>
 
@@ -130,7 +128,7 @@
         <ul class="sell_status box_sizing">
             <li class="course_sell_price">
 
-                <div class="float_left">限购20000人</div>
+                <div class="float_left">限购{{ itemList.2.limitnum }}人</div>
 
                 <div class="float_right course_price"><span class="course_price_unti">RMB</span> <span>119</span></div>
             </li>
@@ -148,11 +146,11 @@
             <div class="course_show_img box_sizing">
 
                 <div class="course_item_left">
-                    <div class="course_class">英语二 翻译</div>
+                    <div class="course_class">{{ itemList.3.engtypename }} {{ itemList.3.engmoduname }}</div>
 
 
                     <div class="course_teacher_name">
-                        <div class="course_teacher_name_item">QQQQQQ</div>
+                        <div class="course_teacher_name_item">{{ itemList.3.teacher }}</div>
                     </div>
 
                     <div class="course_time">
@@ -161,7 +159,7 @@
                         <span class="period">12</span>课时
                     </div>
                     <div class="detail_btn_hd">
-                        <a href="/qingye/translation2/" id="j-buy" class="j_btn_control btn_normal_orange btn_common">了解详情</a>
+                        <a href="/qingye/comprehension1/8/" id="j-buy" class="j_btn_control btn_normal_orange btn_common">了解详情</a>
                     </div>
 
                 </div>
@@ -177,7 +175,7 @@
         <ul class="sell_status box_sizing">
             <li class="course_sell_price">
 
-                <div class="float_left">限购20000人</div>
+                <div class="float_left">限购{{ itemList.3.limitnum }}人</div>
 
                 <div class="float_right course_price"><span class="course_price_unti">RMB</span> <span>99</span></div>
             </li>

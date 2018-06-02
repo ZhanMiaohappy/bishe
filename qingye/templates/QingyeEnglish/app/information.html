@@ -1,48 +1,90 @@
-<div class="infoContainer">
-<div class="settings_con_hd" id="j-settings-con-hd">
+<div class="infoContainer" ng-app="modifyApp">
+        <form class="settings_con_hd"  ng-controller="modifyCtrl" id="j-settings-con-hd" name="modifyForm" ng-submit="submitForm()">
             <ul class="personal_data" id="j-personal">
                 <li class="datas interval_bottom clearfix">
-                    <h5 class="float_left">注册手机：</h5>
-                    <div class="datas_con float_left">18910120193</div>
+                    <h5 class="float_left">手机号码：</h5>
+                    <div class="datas_con float_left">{{ request.session.phonenum }}</div>
                 </li>
                 <li class="datas interval_bottom clearfix">
                     <h5 class="float_left">昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</h5>
-                    <input type="text" id="resetName" name="resetName" class="datas_con datas_box float_left" placeholder="{{name}}"></input>
+                    <input type="text" id="resetName" name="resetName" class="datas_con datas_box float_left" placeholder="{{request.session.username}}">
+
                 </li>
-                <li class="datas clearfix">
+                <li class="datas interval_bottom clearfix">
                     <h5 class="float_left">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</h5>
-                        <input type="password" id="resetPassword" name="resetPassword" class="datas_con datas_box float_left"></input>
-                    <a href="javascript:;" class="datas_con btn pwd_btn float_left" id="change_pwd_btn">修改</a>
+                        <input type="password" id="resetPassword" name="resetPassword" class="datas_con datas_box float_left" ng-model="userdata.password" ng-minlength="4" ng-maxlength="10" required>
+                           <p class="errorPas" ng-if="(modifyForm.resetPassword.$error.minlength || modifyForm.resetPassword.$error.maxlength ) && modifyForm.resetPassword.$touched">长度在4-10位</p>
+                           <p class="errorPas" ng-if="modifyForm.resetPassword.$error.required  && modifyForm.resetPassword.$touched">密码不能为空</p>
                 </li>
-                    <li class="datas hint_setpwd">
-                        <h5></h5>
-                        为保证您的账户安全，请尽快设置密码
+
+{#                <li class="datas clearfix">#}
+{#                    <h5 class="float_left">确认密码：</h5>#}
+{#                        <input type="password" id="resetPassword2" name="resetPassword" class="datas_con datas_box float_left" ng-model="userdata.password2" compare="userdata.password" required>#}
+{#                        <p class="errorPas"></p>#}
+{#                </li>#}
+                    <li class="datas hint_setpwd" id="messageAlert">
+                        <span>为保证您的账户安全，请尽快设置密码</span>
                     </li>
+{#                <button href="javascript:;" class="datas_con btn pwd_btn" id="change_pwd_btn" style="width: 40%;background-color:#f5d220;color: white;">修改</button>#}
+                <input type="button" class="datas_con btn pwd_btn" id="change_pwd_btn" style="width: 40%;height:40px;border-radius:10px;background-color:#f5d220;color: white;" value="修改" >
             </ul>
-        </div>
+
+        </form>
+
 </div>
  <script>
-// 	$(function(){
-//	  $('.datas_box').change(function(){
-//		$('.pwd_btn').click(function(){
-//			alert('购买成功！');
-//		});
-//	  });
-//	});
- $('#change_pwd_btn').click(function(){
- 	$.ajax({
- 		type:"post",
- 		url:"/QingyeEnglish/modify/",
- 		data:{'resetName':'resetName','resetPassword':'resetPassword'},
- 		dataType:'json',
- 		function (data){
- 			if(data.code==200){
- 			alert("修改成功！");
- 			}
- 		},
- 		async:true
- 	});
- });
+   	$(function(){
+  	  $('input').change(function(){
+  	      $('#messageAlert span').hide();
+  	  });
+  	});
+   	$("#change_pwd_btn").click(function () {
+        var username = $('#resetName').val();
+        var password = $('#resetPassword').val();
+        $.ajaxSetup({
+            data:{csrfmiddlewaretoken:'{{ csrf_token }}'},
+        });
+        $.ajax({
+            type: "POST",
+            url: '/qingye/modify_handle/',
+            data: {
+                "resetName": username,
+                "resetPassword": password,
+            },
+            dataType: "json",
+            success: function (data) {
+                {#console.log(data);#}
+                if (data.code==200){
+                    alert("修改成功!");
+                    window.location.href="/qingye/register";
+                }
+
+
+
+
+
+            },
+            error: function () {
+                alert("异常！");
+            },
+            async: true
+        });
+    });
+   	{#$('#change_pwd_btn').click(function(){#}
+ 	{#  $.ajax({#}
+ 	{#	type:"post",#}
+ 	{#	url:"/qingye/register_handle/",#}
+ 	{#	data:{'resetName':'resetName','resetPassword':'resetPassword'},#}
+ 	{#	dataType:'json',#}
+ 	{#	function (data){#}
+ 	{#		if(data.code==200){#}
+ 	{#		alert("修改成功！");#}
+ 	{#		}#}
+ 	{#	},#}
+ 	{#	async:true#}
+ 	{#  });#}
+    {# });#}
 </script>
+
 
 

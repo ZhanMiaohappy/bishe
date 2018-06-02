@@ -22,7 +22,6 @@
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/register/register-jquery.js"></script>
     <script src="/static/register/register.index.js"></script>
-    <script src="/static/js/yingYi.js"></script>
     
     <style>
     html, body {
@@ -406,7 +405,7 @@ margin-top: 20px;}
             </div>
 
             <div class="detail_intro_right">
-                <div class="detail_title_hd">阅读理解（英语一）</div>
+                <div class="detail_title_hd">{{ engmoduname }}（{{ engtypename }}）</div>
                 <div class="detail_time_hd font_mid_grey">
                     <span>开课时间:</span>
                     <span class="detail_time">018.03.05-04.27</span>
@@ -414,16 +413,16 @@ margin-top: 20px;}
                 </div>
                 <div class="detail_limit_hd font_mid_grey">
                     <span>限售人数:</span>
-                    <span>3000人</span>
+                    <span>{{ limitnum }}人</span>
                 </div>
 
                     <div class="detail_coursegroup_hd">
-                            <a class="coursegroup_item coursegroup_item_curr">英语一</a>
+                            <a class="coursegroup_item coursegroup_item_curr">{{ engtypename }}</a>
                     </div>
 
                 <div class="detail_price_hd font_price">
                     <span class="rmb font_price">RMB</span>
-                    <span class="detail_price font_price">79.0</span>
+                    <span class="detail_price font_price">{{ costfee }}</span>
                 </div>
                 <div class="detail_btn_hd">
                 	<div style="width: 100%; height: 100px;">
@@ -457,21 +456,21 @@ margin-top: 20px;}
     <div class="modal-content">
       <div class="modal-header">
         <span class="close">&times;</span>
-        <h2 style="text-align: center;">阅读理解(英语一)</h2>
+        <h2 style="text-align: center;">{{ engmoduname }}（{{ engtypename }}）</h2>
       </div>
       <div class="modal-body">
         <p class="row">
-                   姓名 <input type="text" class="input w1" name="n-name" id="j-mail-name" placeholder="{{name}}" autocomplete="off" maxlength="10" value="">
+                   姓名 <input type="text" class="input w1" name="n-name" id="j-mail-name" placeholder="{{request.session.username}}" autocomplete="off" maxlength="10" value="">
         </p>
         <p class="row">
-                   电话<input type="number" class="input w1" id="j-mail-tel" name="n-phone" placeholder="{{phonenum}}" autocomplete="off" value="">
+                   电话<input type="number" class="input w1" id="j-mail-tel" name="n-phone" placeholder="{{request.session.phonenum}}" autocomplete="off" value="">
         </p>
         <p class="row">
-                  密码 <input type="password" class="input w1" id="j-mail-tel" name="n-password" placeholder="{{password}}" autocomplete="off" value="">
+                  密码 <input type="password" class="input w1" id="j-password" name="n-password" autocomplete="off" value="">
         </p>
       </div>
       <div class="modal-footer">
-        <h3><a href="#next" class="operate step address_operate">确认购买</a></h3>
+        <h3><a href="#next" class="operate step address_operate" id="definiteBuy">确认购买</a></h3>
       </div>
     </div>
  
@@ -486,8 +485,9 @@ margin-top: 20px;}
    		  <p style="color:#556666;font-family: '微软雅黑';" align="center" ;>河北省唐山市曹妃甸区唐山湾生态城华北理工大学新校</p>
    		  <p style="color:#C7C7C7;" align="center">电话：86-18910120193</p>
    		  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
     </div>
-    <script src="../js/swiper.min.js"></script>
+    <script src="/static/js/swiper.min.js"></script>
     <script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 30,
@@ -529,20 +529,20 @@ window.onclick = function(event) {
     }
 }
 </script>
-<script type="text/javascript">
-	
-	    $(document).ready(function () {    
-	    	$('input').change(function(){
-		       $('.operate').click(function(){
-	                    setTimeout(function(){//两秒后跳转  
-                                 alert("购买成功！");   
-                                 location.href ="http://127.0.0.1:8000/qingye/index/#/myCourse";//PC网页式跳转
-//                               $.mobile.changePage("index.php"); //手机网页式跳转
-                        },0); 
-		       });
-	        });
-        }); 
-</script>
+{#<script type="text/javascript">#}
+{#	#}
+{#	    $(document).ready(function () {    #}
+{#	    	$('input').change(function(){#}
+{#		       $('').click(function(){#}
+{#	                    setTimeout(function(){//两秒后跳转  #}
+{#                                 alert("购买成功！");   #}
+{#                                 location.href ="http://127.0.0.1:8000/qingye/index/#/myCourse";//PC网页式跳转#}
+{#//                               $.mobile.changePage("index.php"); //手机网页式跳转#}
+{#                        },0); #}
+{#		       });#}
+{#	        });#}
+{#        }); #}
+{#</script>#}
   <!--<script type="text/javascript">
   	window.onload=function(){
   		var oBtn=document.getElementById("btnBuy");
@@ -564,6 +564,43 @@ window.onclick = function(event) {
   		document.body.appendChild(oBuy);
   	}
   </script>-->
+<script>
+ $("#definiteBuy").click(function () {
+        var password = $('#j-password').val();
+
+        $.ajaxSetup({
+            data:{csrfmiddlewaretoken:'{{ csrf_token }}'},
+        });
+        $.ajax({
+            type: "POST",
+            url: '/qingye/buy_handle/',
+            data: {
+
+                "password": password,
+                "engmoduid":{{ engmoduid }}
+            },
+            dataType: "json",
+            success: function (data) {
+                {#console.log(data);#}
+
+                if (data.code == 200) {
+                          setTimeout(function(){//两秒后跳转
+                                  alert("购买成功！");
+                                  location.href ="http://127.0.0.1:8000/qingye/index/#/myCourse";//PC网页式跳转
+ //                               $.mobile.changePage("index.php"); //手机网页式跳转
+                          },1000);
+                }
+                else{
+                    alert('密码错误，请修改！');
+                }
+            },
+            error: function () {
+                alert("异常！");
+            },
+            async: true
+        });
+    });
+</script>
 
 </body>
 

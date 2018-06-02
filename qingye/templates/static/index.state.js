@@ -80,6 +80,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
        })
+
         .state('myInfo', {
             url: '/myInfo',
             views: {

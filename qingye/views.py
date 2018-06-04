@@ -194,6 +194,7 @@ def register_handle(request):
         # return render(request,'register/register.html',{"code":0})
         return JsonResponse({"code": 0})
 
+
 #购买处理
 def buy_handle(request):
     dictPost=request.POST

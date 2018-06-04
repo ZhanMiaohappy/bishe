@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed253bae-ceaf-4ed8-b67a-03e35d67d69a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +25,7 @@
       <file leaf-file-name="information.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/information.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
+            <state relative-caret-position="-1100">
               <caret line="28" column="135" selection-start-line="28" selection-start-column="135" selection-end-line="28" selection-end-column="135" />
             </state>
           </provider>
@@ -28,8 +34,11 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="81" column="58" lean-forward="true" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+            <state relative-caret-position="47">
+              <caret line="194" selection-start-line="194" selection-end-line="194" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,8 +46,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qingye/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            <state relative-caret-position="321">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -49,8 +58,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qingye/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+            <state relative-caret-position="97">
+              <caret line="195" selection-start-line="195" selection-end-line="195" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -61,8 +70,17 @@
       <file leaf-file-name="courseList11.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="179" column="34" lean-forward="true" selection-start-line="179" selection-start-column="34" selection-end-line="179" selection-end-column="34" />
+            <state relative-caret-position="183">
+              <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comprehension1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="908">
+              <caret line="609" column="11" lean-forward="true" selection-start-line="609" selection-start-column="11" selection-end-line="609" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -80,7 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Edit</find>
       <find>panel</find>
       <find>hrmanager.leaveinfo</find>
       <find>searchbar</find>
@@ -110,6 +127,7 @@
       <find>j-mail</find>
       <find>courseList11</find>
       <find>update</find>
+      <find>learning-time</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -139,8 +157,6 @@
         <option value="$PROJECT_DIR$/qingye/adminx.py" />
         <option value="$PROJECT_DIR$/qingye/models.py" />
         <option value="$PROJECT_DIR$/qingye/templates/static/css/yingEr.css" />
-        <option value="$PROJECT_DIR$/qingye/templates/static/css/home.css" />
-        <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/course12.html" />
         <option value="$PROJECT_DIR$/qingye/templates/static/css/yingYi.css" />
         <option value="$PROJECT_DIR$/qingye/templates/static/css/course.css" />
@@ -171,11 +187,13 @@
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList21.html" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/course.html" />
         <option value="$PROJECT_DIR$/qingye/templates/static/index.state.js" />
-        <option value="$PROJECT_DIR$/qingye/urls.py" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/information.html" />
-        <option value="$PROJECT_DIR$/qingye/views.py" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html" />
+        <option value="$PROJECT_DIR$/qingye/urls.py" />
+        <option value="$PROJECT_DIR$/qingye/views.py" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" />
+        <option value="$PROJECT_DIR$/qingye/templates/static/css/home.css" />
+        <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" />
       </list>
     </option>
@@ -189,9 +207,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="665" />
-    <option name="y" value="5" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="366" />
+    <option name="y" value="6" />
     <option name="width" value="714" />
     <option name="height" value="744" />
   </component>
@@ -201,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,7 +293,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,11 +424,12 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3272727" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.009917355" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0132231405" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.15206611" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19288956" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22012103" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -421,7 +440,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +529,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/clozeText1.html" />
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension2.html" />
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/clozeText2.html" />
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList13.html" />
@@ -654,37 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hrmanager/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3325">
           <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
@@ -698,27 +688,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/vedio.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1510">
-          <caret line="601" column="7" lean-forward="true" selection-start-line="601" selection-start-column="7" selection-end-line="601" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/vedio.html" />
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/course.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1826">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="81" column="58" lean-forward="true" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -731,24 +705,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html">
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-473">
-          <caret line="80" column="129" selection-start-line="80" selection-start-column="129" selection-end-line="80" selection-end-column="129" />
+        <state relative-caret-position="126">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
+        <state relative-caret-position="-1100">
           <caret line="28" column="135" selection-start-line="28" selection-start-column="135" selection-end-line="28" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="908">
+          <caret line="609" column="11" lean-forward="true" selection-start-line="609" selection-start-column="11" selection-end-line="609" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="179" column="34" lean-forward="true" selection-start-line="179" selection-start-column="34" selection-end-line="179" selection-end-column="34" />
+        <state relative-caret-position="183">
+          <caret line="74" column="13" lean-forward="true" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
         </state>
       </provider>
     </entry>

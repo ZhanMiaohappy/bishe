@@ -111,6 +111,7 @@ def courseList11(request, engmoduid):
     itemList = []
     for item in videoinfo:
         itemDict={}
+        itemDict['videoid'] = item.videoid
         itemDict['videoname'] = item.videoname
         itemDict['videopath'] = item.videopath
         itemDict['duration'] = item.duration

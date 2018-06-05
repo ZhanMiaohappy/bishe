@@ -2,8 +2,349 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed253bae-ceaf-4ed8-b67a-03e35d67d69a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qingye/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.setlang.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.setlang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.theme.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.theme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.topnav.html" beforeDir="false" afterPath="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.topnav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/adminx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/abnormalOfAttend/abnormalOfAttend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/askForLeave/askForLeave.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/attendCheck/attendCheck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/attendCheck/attendReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/img/images.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/img/images.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/leaveForCheck/leaveForCheck.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/links/linksAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/links/linksList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/main2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/message/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/message/messageReply.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/news/newsAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/news/newsList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/payment/payRecord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/payment/payReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/personInfo/newsList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/personInfo/personInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/systemParameter/systemParameter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/user/addUser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/user/addUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/user/allUsers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/user/allUsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/user/changePwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/user/userInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/userInfo/addressList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/userInfo/changePass.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/userInfo/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/Calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/font_eolqem241z66flxr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/images.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/message.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/news.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/adm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/alipay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/avtar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/81.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/86.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/image1/95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/pass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/userface1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/userface2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/userface3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/userface4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/userface5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/images/wechat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/attendanceCalendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/bodyTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/echarts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/leftNav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/check.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/images.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/linksList.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/message.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/newsList.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/systemParameter.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/userface.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/json/usersList.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/laydate/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/laydate/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/dest/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/layim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/layui2/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/abnormalOfAttend.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/addressList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/askForLeave.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/attendCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/attendReport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/changePass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/leaveForCheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/linksAdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/linksList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/newsAdd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/payRecord.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/payReport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/personInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/systemParameter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hrmanager/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/static/css/navigator.css" beforeDir="false" afterPath="$PROJECT_DIR$/qingye/templates/static/css/navigator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/static/video/yingyu1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/static/video/yingyu2.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/static/video/yingyu3.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qingye/templates/static/video/yingyu4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xadmin-master/xadmin/templates/xadmin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/xadmin-master/xadmin/templates/xadmin/base_site.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,23 +358,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/main.js">
+      <file leaf-file-name="courseList11.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="214">
+              <caret line="223" column="18" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="courseList11.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bishe/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="268" column="34" lean-forward="true" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+            <state relative-caret-position="314">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qingye/adminx.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1236">
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comm.top.topnav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.topnav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comm.top.setlang.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.setlang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qingye/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="sitemenu_accordion.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/sitemenu_accordion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-350">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_site.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xadmin-master/xadmin/templates/xadmin/base_site.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qingye/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2600">
+              <caret line="108" column="16" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,14 +465,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>panel</find>
-      <find>hrmanager.leaveinfo</find>
-      <find>searchbar</find>
-      <find>navbar-form navbar-left</find>
-      <find>欢迎</find>
-      <find>attendRecordCount</find>
-      <find>navBar</find>
-      <find>alert</find>
       <find>err</find>
       <find>name</find>
       <find>learning</find>
@@ -68,7 +474,7 @@
       <find>course_item_img</find>
       <find>mycourse</find>
       <find>fonts.gstatic.com/s/titilliumweb/</find>
-      <find>Forgot Password</find>
+      <find />
       <find>flu</find>
       <find>login</find>
       <find>register</find>
@@ -81,14 +487,22 @@
       <find>courseList11</find>
       <find>update</find>
       <find>learning-time</find>
+      <find>playBySeconds</find>
+      <find>currentTime</find>
+      <find>play</find>
+      <find>hide-sm</find>
+      <find>dropdown-toggle</find>
+      <find>主题</find>
+      <find />
+      <find>fa-fw</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
     <dirStrings>
       <dir>F:\DjangoProject\bishe\extra_app\xadmin</dir>
-      <dir>E:\bishe</dir>
       <dir>E:\bishe\qingye\templates\static</dir>
+      <dir>E:\bishe</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -97,10 +511,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/userInfo/login.html" />
-        <option value="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/attendanceCalendar.js" />
-        <option value="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/css/login.css" />
-        <option value="$PROJECT_DIR$/hrmanager/views.py" />
         <option value="$PROJECT_DIR$/hrmanager/templates/hrmanager/page/main2.html" />
         <option value="$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/main.js" />
         <option value="$PROJECT_DIR$/require.txt" />
@@ -108,7 +518,6 @@
         <option value="$PROJECT_DIR$/hrmanager/models.py" />
         <option value="$PROJECT_DIR$/bishe/urls.py" />
         <option value="$PROJECT_DIR$/qingye/adminx.py" />
-        <option value="$PROJECT_DIR$/qingye/models.py" />
         <option value="$PROJECT_DIR$/qingye/templates/static/css/yingEr.css" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/course12.html" />
         <option value="$PROJECT_DIR$/qingye/templates/static/css/yingYi.css" />
@@ -131,7 +540,6 @@
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/writing1.html" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/writing2.html" />
         <option value="$PROJECT_DIR$/qingye/templates/static/css/information.css" />
-        <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html" />
         <option value="$PROJECT_DIR$/qingye/templates/static/js/information.js" />
         <option value="$PROJECT_DIR$/bishe/settings.py" />
         <option value="$PROJECT_DIR$/qingye/templates/static/js/modifyCtrl.js" />
@@ -143,11 +551,17 @@
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/information.html" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html" />
         <option value="$PROJECT_DIR$/qingye/urls.py" />
-        <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" />
-        <option value="$PROJECT_DIR$/qingye/templates/static/css/home.css" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html" />
         <option value="$PROJECT_DIR$/qingye/views.py" />
+        <option value="$PROJECT_DIR$/qingye/templates/static/css/home.css" />
+        <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html" />
+        <option value="$PROJECT_DIR$/qingye/templates/static/css/navigator.css" />
+        <option value="$PROJECT_DIR$/qingye/models.py" />
         <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html" />
+        <option value="$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html" />
+        <option value="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.topnav.html" />
+        <option value="$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.setlang.html" />
+        <option value="$PROJECT_DIR$/xadmin-master/xadmin/templates/xadmin/base_site.html" />
       </list>
     </option>
   </component>
@@ -160,7 +574,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="366" />
     <option name="y" value="6" />
     <option name="width" value="714" />
@@ -172,6 +586,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,37 +597,18 @@
             <path>
               <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
               <item name="bishe" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
               <item name="bishe" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
               <item name="bishe" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bishe" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bishe" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="hrmanager" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="extra_app" type="462c0819:PsiDirectoryNode" />
+              <item name="xadmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
@@ -237,6 +633,14 @@
               <item name="bishe" type="462c0819:PsiDirectoryNode" />
               <item name="qingye" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="QingyeEnglish" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="qingye" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,13 +649,20 @@
               <item name="qingye" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bishe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bishe" type="462c0819:PsiDirectoryNode" />
+              <item name="qingye" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,19 +675,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\bishe\qingye\templates\static\video" />
-      <recent name="E:\bishe\qingye\templates" />
-      <recent name="E:\bishe" />
-      <recent name="F:\DjangoProject\bishe\hrmanager\templates\hrmanager\static\css" />
-      <recent name="F:\DjangoProject\bishe\hrmanager\templates\hrmanager\static\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\bishe\qingye\templates\static\register" />
       <recent name="E:\bishe\qingye\templates\static" />
       <recent name="E:\bishe\qingye\templates" />
       <recent name="E:\bishe\qingye" />
       <recent name="F:\DjangoProject\bishe\extra_app\xadmin\templates\xadmin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bishe\qingye\templates\QingyeEnglish\app" />
+      <recent name="E:\bishe\qingye\templates\static\video" />
+      <recent name="E:\bishe\qingye\templates" />
+      <recent name="E:\bishe" />
+      <recent name="F:\DjangoProject\bishe\hrmanager\templates\hrmanager\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,17 +787,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.11043873" side_tool="true" visible="true" weight="0.011570248" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.47933885" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3272727" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8895613" weight="0.47603306" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.15206611" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22314675" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88729197" weight="0.25289255" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.067768596" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.23298033" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.39173552" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -397,7 +810,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +851,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="20" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -487,26 +899,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/writing1.html" />
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList24.html" />
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList23.html" />
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList22.html" />
-    <entry file="file://$PROJECT_DIR$/qingye/templates/static/css/information.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2425">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/translation2.html" />
-    <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/page/askForLeave/askForLeave.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/abnormalOfAttend.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/askForLeave.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -582,18 +974,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="75" column="10" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList21.html" />
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList12.html" />
     <entry file="file://$PROJECT_DIR$/qingye/templates/static/image/eliteschool01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -601,16 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hrmanager/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3325">
-          <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,65 +1002,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qingye/templates/static/register/register-jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2550">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/static/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4850">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
+        <state relative-caret-position="-2550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/comprehension1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15225">
           <caret line="609" column="11" selection-start-line="609" selection-start-column="11" selection-end-line="609" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qingye/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="113" column="25" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,13 +1040,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/linksList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1650">
-          <folding>
-            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1650" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/static/pageJs/message.js">
@@ -747,28 +1060,159 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2850">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hrmanager/templates/hrmanager/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="575">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#td#2;n#tr#0;n#!!top" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="108" column="16" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="268" column="34" lean-forward="true" selection-start-line="268" selection-start-column="34" selection-end-line="268" selection-end-column="34" />
+        <state relative-caret-position="165">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/static/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="171" column="4" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4850">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/static/css/navigator.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hrmanager/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4288">
+          <caret line="237" column="56" selection-start-line="237" selection-start-column="56" selection-end-line="237" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/app/courseList11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="223" column="18" selection-start-line="223" selection-start-column="18" selection-end-line="223" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bishe/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/templates/QingyeEnglish/register/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/includes/sitemenu_accordion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qingye/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1236">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.topnav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_app/xadmin/templates/xadmin/blocks/comm.top.setlang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="76" selection-start-line="3" selection-start-column="76" selection-end-line="3" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xadmin-master/xadmin/templates/xadmin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>

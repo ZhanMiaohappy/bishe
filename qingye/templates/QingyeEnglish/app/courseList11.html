@@ -182,7 +182,7 @@
                         </div>-->
                         <span>考研英语黄金学习计划----</span>
 
-                        <span>({{ item.videoid }})</span>
+{#                        <span>({{ item.videoid }})</span>#}
                         <span>({{ item.engtypename }})</span>
                         <span>{{ item.engmoduname }} ----</span>
                         <span>{{ item.videoname }}----</span>
@@ -192,23 +192,19 @@
                     </div>
 
                     <div class="right_btn float_right">
-                        {#                                <input type="button" class="see_replay" value="看视频" id="btnSee{{item.videoid}}" onclick="btnSee(this,'{{ item.videopath }}')">#}
                         <a href="javascript:;" class="see_replay" id="btnSee{{ item.videoid }}"
                            onclick="btnSee(this,'{{ item.videopath }}')">看视频</a>
-                        <a href="/comment/list"
-                           class="evaluate right_btn_link" target="_blank">
-                            评价 (22)
-                        </a>
+{#                        <a href="/comment/list"#}
+{#                           class="evaluate right_btn_link" target="_blank">#}
+{#                            评价 (22)#}
+{#                        </a>#}
                     </div>
                 </li>
             </ul>
         </div>
-        <div>
-            {#         <video id="videoSee"  style="display: none;" controls="controls" ></video>#}
+        <div class="videoContent" style="width: 100%;">
+
         </div>
-        {#                <div class="videoContent" style="margin-left: 50px">#}
-        {#                    <video id="videoSee" src="/static/video/"+videopath style="display: none;" controls="controls" ontimeupdate="myVideo(this)"></video>#}
-        {#                </div>#}
     {% endfor %}
 </div>
 <div class="foot" style="background-color:#323232 ;">
@@ -218,27 +214,32 @@
     <p style="color:#C7C7C7;" align="center">电话：86-18910120193</p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 </div>
-
 </body>
 <script>
-    function videoFunction() {
-         var myVideo = document.getElementById('myVideo')//获取video元素
-            , tol = 0 //总时长
-        ;
-        myVideo.addEventListener("loadedmetadata", function () {
-            tol = myVideo.duration;//获取总时长
-            playBySeconds( 60)
-        });
-        //音量改变时
-        myVideo.addEventListener("volumechange", function () {
-            var volume = myVideo.volume;//获取当前音量
-            console.log(volume);//在调试器中打印
-        });
-        //播放时间点更新时
-        myVideo.addEventListener("timeupdate", function () {
-            var currentTime = myVideo.currentTime;//获取当前播放时间
-            console.log(currentTime);//在调试器中打印
-        });
+    function videoFunction(id) {
+        var myVideo = document.getElementById('myVideo')//获取video元素
+        , tol = 0 //总时长
+    ;
+    myVideo.addEventListener("loadedmetadata", function () {
+        alert(id);
+        var storage=window.localStorage;
+        var pauseTime =storage.getItem(id);
+        tol = myVideo.duration;//获取总时长
+        alert(pauseTime);
+        playBySeconds(pauseTime);
+    });
+    //音量改变时
+    myVideo.addEventListener("volumechange", function () {
+        var volume = myVideo.volume;//获取当前音量
+        console.log(volume);//在调试器中打印
+    });
+    //播放时间点更新时
+        var currentTime;
+    myVideo.addEventListener("timeupdate", function () {
+        currentTime = myVideo.currentTime;//获取当前播放时间
+        console.log(currentTime);//在调试器中打印
+    });
+    myVideo.onpause = pause;
 
     //播放
     function play() {
@@ -247,7 +248,10 @@
 
     //暂停
     function pause() {
-        myVideo.pause();
+        var storage=window.localStorage;
+        storage.setItem(id, currentTime);
+        {#myVideo.pause();#}
+        var aaaa= storage.getItem(id);
     }
 
 
@@ -261,20 +265,21 @@
     function setVol(num) {
         myVideo.volume = num;
     }
+
     }
+
 
 </script>
 <script type="text/javascript">
     function btnSee(obj, videopath) {
         var num = obj.id.slice(6);
-        //alert(videopath);
         divAppend = '<div class="videoContent" style="margin-left: 50px">\n' +
-            '                    <video id="myVideo" src="/static/video/' + videopath + '\"'
-        divAppend += ' style="" controls preload="auto"></video></div> '
+            '                    <video id="myVideo" width="1200" src="'+videopath+'\"'
+        divAppend += 'controls preload="auto"></video></div> '
         $("#contentId" + num).next(1).remove();
         $('.videoContent').css('display', 'none');
         $("#contentId" + num).after(divAppend);
-        videoFunction()
+        videoFunction(obj.id)
     }
 
 </script>

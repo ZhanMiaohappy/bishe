@@ -60,7 +60,7 @@ class videoInfo(models.Model):
     videoid=models.AutoField(primary_key=True, verbose_name="视频编号")
     videoname=models.CharField(max_length=200, verbose_name="视频名称")
     engmoduid=models.ForeignKey("engmoduInfo", verbose_name="模块名称", on_delete=models.CASCADE)
-    videopath=models.CharField(max_length=200, null=True, blank=True)
+    videopath=models.TextField(null=True, blank=True)
     duration=models.CharField(max_length=20)
     def __str__(self):
         return self.videoname
